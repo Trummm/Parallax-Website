@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+:root {
+  --text-color: #777777;
+}
+
+* {
+  box-sizing: inherit;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+.grid--container {
+  width: 948px;
+  max-width: 100%;
+  margin: 0 auto;
+}
